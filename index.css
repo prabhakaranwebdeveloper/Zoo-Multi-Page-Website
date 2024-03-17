@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    ::selection{
+        color:black;
+        background-color: yellow;
+    }
+}
+.gridlayout{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.landingpageimage{
+    width: 100%;
+    height: 700px;
+    background-image: url(./zooimages/LandingImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Mainhead{
+    font-family: "Outfit", sans-serif;
+}
+.Mainhead li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+}
+.Mainhead li {
+   list-style-type: none;
+}
+.ticket{
+    background-color: #F7BF39;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Outfit", sans-serif;
+}
+.Mainheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainlisthead{
+    display: flex;
+   gap: 50px;
+}
+.logoimg{
+    padding-top: 10px;
+}
+.Mainherosectioncontent{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 70px;
+}
+
+.herosectioncontent{
+    padding-bottom: 40px ;
+    font-family: "PT Serif Caption", serif;
+}
+.Mainheading{
+    color: #F7BF39;
+    padding-bottom: 40px ;
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+}
+.herosectioncontent2{
+    padding-bottom: 40px ;
+    font-family: "PT Serif Caption", serif;
+}
+.herocontentpara{
+    padding-bottom: 40px ;
+    font-family: "PT Serif Caption", serif;
+    width: 70%;
+}
+.discoverbutton{
+    padding: 15px 20px;
+    background-color: #F7BF39;
+    border: none;
+    border-radius: 5px;
+    font-family: "Outfit", sans-serif;
+    font-size: 17px;
+}
+.HEADER{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.Abouthead{
+padding-left: 35px;
+}
+.mainaboutus,.mainaboutus2{
+    margin-top: 50px;
+    display: flex;
+}
+.aboutheading h2{
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+}
+.aboutsubhead,.aboutsubhead2 {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+   margin-top: 30px;
+padding-left: 35px;
+}
+ .Mainaboutcontent{
+    font-family: "PT Serif Caption", serif;
+    color: gray;
+   display: flex;
+   gap: 20px;
+   align-items: center;
+} 
+.aboutcontent{
+    padding-left: 20px;
+    margin-top: 55px;
+}
+.tickimg{
+    padding-left: 35px;
+    margin-top: 55px;
+}
+.tickimg2{
+    margin-top: 55px; 
+}
+.AnimalsMainHeading{
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.MainAnimals{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.viewbutton{
+    margin-top: 50px;
+    text-align: center;
+}
+.VButton{
+    padding: 15px 20px;
+    background-color: #F7BF39;
+    border: none;
+    border-radius: 5px;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    align-items: center;
+}
+.MainANimalCardsection{
+    background-color: #FF9900;
+    width: 100%;
+    height: 180px;
+    margin-top: 50px;
+}
+.Maincard{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.smilehead,.bearhead,.Sharkhead,.birdshead{
+    position: relative;
+    top: 30px;
+    left: 40px; 
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.smilecontent{
+   position: relative;
+top: 70px;
+right: 60px;
+font-family: "PT Serif Caption", serif;
+}
+.smileimg,.Bearimg,.sharkimg,.birdimg{
+    position: relative;
+    top: 50px;
+}
+.bearcontent{
+    position: relative;
+    top: 70px;
+    right: 78px;
+    font-family: "PT Serif Caption", serif;  
+}
+.Sharkcontent{
+    position: relative;
+    top: 70px;
+    right: 95px;
+    font-family: "PT Serif Caption", serif;  
+}
+.birdscontent{
+    position: relative;
+    top: 70px;
+    right: 78px;
+    font-family: "PT Serif Caption", serif;  
+}
+.smileimg{
+    margin-left: 50px;
+}
+.BlogMainHeading{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bloghead{
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.readbox,.heartbox,.Commentbox{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.blogBottomContent{
+    display: flex;
+    align-items: center;
+}
+.read,.likes,.views{
+    font-size: 12px;
+    width: 100%;
+}
+.Mainblog1,.Mainblog2,.Mainblog3,.Mainblog4,.Mainblog5,.Mainblog6,.Mainblog7,.Mainblog8,.Mainblog9,.Mainblog10,.Mainblog11,.Mainblog12,.Mainblog13,.Mainblog14,.Mainblog15,.Mainblog16{
+    width: 25%;
+    border: 1px solid #FF9900;
+    border-radius: 10px;
+    text-align: center;
+}
+.butterflyimg,.elephantimg,.Wildbearimg,.Fishimg,.Parrotimg,.Giraffetimg,.Penquinimg,.Crocodileimg,.Gorillaimg,.Slothimg,.Octopusimg,.whaleimg,.frogimg,.yakimg,.varBirdsimg,.peacockimg{
+    padding-top: 5px;
+}
+.blogMainhead,.blogMainhead2,.blogMainhead3,.blogMainhead4,.blogMainhead5,.blogMainhead6,.blogMainhead7,.blogMainhead8,.blogMainhead9,.blogMainhead10,.blogMainhead11,.blogMainhead12,.blogMainhead14,.blogMainhead15,.blogMainhead16{
+   text-align: left; 
+   padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Outfit", sans-serif;
+   font-size: 25px;
+   width: 100%;
+}
+.blogsubheading,.blogsubheading2,.blogsubheading3,.blogsubheading4,.blogsubheading5,.blogsubheading6,.blogsubheading7,.blogsubheading8{
+   text-align: left;
+    color: gray;
+    width: 100%;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-family: "Outfit", sans-serif;  
+    font-size: 20px;
+}
+.blogcontent{
+    color: gray;
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-family: "Outfit", sans-serif;  
+   font-size: 15px;
+}
+.blogBottomContent{
+    justify-content: space-around;
+    padding-bottom: 20px;
+    font-family: "Outfit", sans-serif;  
+    color: gray;
+}
+.readbox{
+    
+    padding-left: 3px;
+}
+.read{
+    letter-spacing: 1px;
+}
+.firstfourblog,.SECONDfourblog,.Thirdfourblog,.Lastblog{
+    display: flex;
+    gap: 10px;
+}
+.SECONDfourblog,.Thirdfourblog,.Lastblog{
+    margin-top: 50px;
+}
+.testiMainhead{
+    text-align: center;
+    margin-top: 50px;
+}
+.testiMainHeading{
+    font-family: "Outfit", sans-serif; 
+    font-size: 30px; 
+    padding-bottom: 20px;
+    color: #F7BF39;
+}
+.testiSubHeading{
+    font-family: "Outfit", sans-serif; 
+    font-size: 35px; 
+    padding-bottom: 20px; 
+}
+.MainTestimonialbox1,.MainTestimonialbox2,.MainTestimonialbox3{
+    width: 30%;
+}
+.testiCommaicon{
+     padding-left: 350px;
+     margin-top: 30px;
+    }
+    .testicontent{
+        margin-top: 30px;
+        font-family: "PT Serif Caption", serif;  
+        color: gray;
+        font-size: 15px;
+        width: 95%;
+        padding-left: 10px;
+    }
+    .TestiHumanimg1,.TestiHumanimg2,.TestiHumanimg3{
+        margin-top: 30px;
+    }
+    .testiIMGname1,.testiIMGname2,.testiIMGname3{
+        margin-top: 30px; 
+        font-family: "PT Serif Caption", serif; 
+    }
+    .testistar{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .MainTestimonialbox1,.MainTestimonialbox2,.MainTestimonialbox3{
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .MainTestimonialContent{
+        margin-top: 20px;
+        display: flex;
+        gap: 20PX;
+        justify-content: center;
+    }
+    .dotimg{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .Contactheading{
+        margin-top: 50px;
+        margin-left: 180px;
+    }
+    .firstForm,.SecondForm,.Messageform,.contactMainButton{
+        margin-top: 30px;
+    }
+   .CONTACThead{
+    font-family: "Outfit", sans-serif; 
+    font-size: 40px;
+   }
+   .Nameform,.AddressForm,.Emailform,.PhoneForm,.Message{
+    font-family: "PT Serif Caption", serif; 
+   }
+   .Contactbutton{
+    font-family: "Outfit", sans-serif; 
+    font-size: 20px;
+    background-color:#F7BF39 ;
+    border-radius: 5px;
+    border: none;
+   align-items: center;
+   padding: 20px 227px;
+   color: white;
+   }
+   .Nameform,.AddressForm,.Emailform,.PhoneForm{
+    padding: 15px 100px 15px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+   }
+   .Message{
+    padding: 15px 323px 15px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+   }
+   .AddressForm,.PhoneForm{
+    margin-left: 10px;
+   }
+.contactform input::placeholder{
+color: black;
+}
+.Message::placeholder{
+    color: black;  
+}
+.MaincontactForm{
+    display: flex;
+    justify-content: center;
+}
+.Contactimg{
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+}
+.Footerbg{
+    background-color: #343A40;
+    color: white;
+    margin-top: 50px;
+}
+.MainUsefullLinks,.MainContactInfo,.MainHoursSection{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.Footerhead1,.Footerhead2,.Footerhead3{
+    font-family: "Outfit", sans-serif; 
+    font-size: 25px;
+}
+.Footercontent{
+    font-family: "PT Serif Caption", serif; 
+    padding-top: 30px;
+    font-size: 17px; 
+}
+.homelink,.Aboutlink,.Bloglink,.Testilink{
+    padding-bottom: 25px;
+}
+.Contactlink{
+    padding-bottom: 40px;
+}
+.location,.Emailfooter,.PhoneFooter,.Clock{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 39px;
+    align-items: center;
+}
+.lcontent,.Econtent,.pcontent,.CLcontent{
+    font-family: "PT Serif Caption", serif;
+    font-size: 17px; 
+}
+.Footerhead2{
+    padding-bottom: 30px;
+}
+.Emailcontent{
+   position: relative;
+   right: 5px;
+}
+.loctioncontent{
+    position: relative;
+    left: 6px;
+}
+.locationMainIcon{
+    position: relative;
+    left: 3px;
+    top: 2px;
+}
+.HoursContent{
+    font-family: "PT Serif Caption", serif;
+    font-size: 17px; 
+    text-align: left;   
+}
+.footerheading3{
+    padding-bottom: 30px;
+}
+.Tueday,.Monday,.Wedday,.Thuday,.Friday,.Satday,.Sunday{
+padding-bottom: 10px;
+}
+.MainFooter{
+    display: flex;
+    justify-content: space-between;
+}
+.lastfooter{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Outfit", sans-serif; 
+}
+.blogMainhead13{
+     padding-top: 20px;
+     padding-bottom: 20px;
+     font-family: "Outfit", sans-serif;
+    font-size: 23px;
+    width: 100%;
+}
+.aboutsubhead2,.tickimg2{
+    padding-left: 0;
+}
+.activepagelink{
+    color: #F7BF39 !important;
+}
+
+/* RESPONSIVE WEB DESIGN */
+
+@media screen  and (max-width:500px){
+    .mainlisthead,.MainAnimals,.Maincard,.firstfourblog,.SECONDfourblog,.Thirdfourblog,.Lastblog{
+        display: block;
+    }
+  .wolfanimal,.birdanimal,.penquinanimal,.rhinoanimal,.sqirelanimal,.turtleanimal,.MainTestimonialbox1, .MainTestimonialbox2, .MainTestimonialbox3,.testicontent,.contactimageR,.mapimageR{
+    width: 100%;
+    height: auto;
+}
+.Mainaboutcontent,.MainTestimonialContent,.MaincontactForm,.MainFooter,.mainaboutus{
+    display: block;
+}
+.MainANimalCardsection{
+    width: 50%;
+    height: 920px;
+    margin-left: 100px;
+}
+.testiCommaicon{
+padding: 0;
+}
+.pandaimg{
+    width: 100%;
+    height: 400px;
+}
+.wolfimagehead{
+    width: 100%;
+    height: 45px;
+    object-fit: cover;
+}
+.mainlisthead{
+    font-size: 8px;
+}
+.ticket{
+    padding: 8px;
+    font-size: 8px;
+    border-radius: 3px;
+}
+.Mainheader{
+    display: flex;
+    align-items: center;
+}
+.mainlisthead{
+    display: flex;
+    gap: 7px;
+}
+.Mainhead li a{
+    padding: 0;
+}
+.Mainherosectioncontent{
+    position: unset;
+    padding: 0;
+   text-align: center;
+}
+.herosectioncontent{
+    padding-top: 50px;
+}
+.Mainheading{
+    font-size: 45px;
+}
+.herocontentpara{
+    width: 100%;
+}
+.landingpageimage{
+    height: 560px;
+}
+.discoverbutton{
+  padding: 0;  
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.tickimg,.tickimg2{
+    padding: 0;
+    width: 10%;
+    padding-left: 30px;
+   margin-top: 30px;
+}
+.aboutcontent{
+   padding-left: 10px;
+   margin-top: 20px;
+   padding-left: 30px;
+}
+.aboutheading h2,.AnimalsMainHeading,.bloghead,.CONTACThead{
+    font-size: 30px;
+}
+.smileimg{
+    margin-left: 0;
+}
+.smilehead, .bearhead, .Sharkhead, .birdshead{
+    top: 65px;
+    left: 0;
+}
+.smilecontent{
+    right: 0;
+}
+.Bearimg{
+    top: 100px;
+}
+.bearhead{
+    top: 115px;
+    
+}
+.bearcontent{
+    right: 0;
+    top: 130px;
+}
+.sharkimg{
+    top: 160px;
+}
+.Sharkhead{
+    top: 180px;
+}
+.Sharkcontent{
+    right: 0;
+    top: 190px;
+}
+.birdimg{
+    top: 220px;
+}
+.birdshead{
+    top: 230px;
+}
+.birdscontent{
+    right: 0;
+    top: 240px;
+}
+.Mainblog1,.Mainblog2,.Mainblog3,.Mainblog4,.Mainblog5,.Mainblog6,.Mainblog7,.Mainblog8,.Mainblog9,.Mainblog10,.Mainblog11,.Mainblog12,.Mainblog13,.Mainblog14,.Mainblog15,.Mainblog16{
+    margin-bottom: 20px;
+}
+.SECONDfourblog{
+    margin-top: 0;
+}
+.testiCommaicon{
+    padding-left: 270px;
+}
+.testicontent{
+    padding: 0;
+}
+.Contactheading{
+    margin-left: 0;
+    text-align: center;
+}
+.MainTestimonialbox1,.MainTestimonialbox2,.MainTestimonialbox3{
+    margin-bottom: 20px;
+}
+.AddressForm, .PhoneForm{
+    margin-left: 0;
+}
+.AddressForm,.PhoneForm,.Messageform,.SecondForm{
+    margin-top: 20px;
+}
+.Message{
+    padding: 15px 30px 15px 15px;
+}
+.MaincontactForm{
+    text-align: center;
+}
+.Contactbutton{
+    padding: 15px 15px;
+}
+.Contactimg{
+    position: unset;
+}
+.footerheading1{
+    padding: 40px; 
+}
+.MainUsefullLinks, .MainContactInfo, .MainHoursSection{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.MainUsefullLinks,.MainHoursSection,.HoursContent,.footerheading2{
+    text-align: center;
+}
+.Footercontent{
+    padding-top: 0;
+}
+.aboutheading h2{
+    margin-top: 20px;
+}
+.MainHoursSection{
+    padding-bottom: 40px;
+}
+.MainContactInfo{
+    margin-left: 20px;
+}
+.location,.Emailfooter,.PhoneFooter,.Clock {
+    gap:10px;
+}
+.lastfooter{
+    display: block;
+    text-align: center;
+}
+.testicontent{
+    font-size: 13px;
+}
+.copyrights{
+    padding-bottom: 20px;
+}
+.ticket:hover{
+    background-color:#FD5634;
+    color: white;
+}
+.discoverbutton:hover{
+    background-color:#FD5634;
+    color: white; 
+}
+.VButton:hover{
+    background-color:#FD5634;
+    color: white; 
+} 
+.Contactbutton:hover{
+    background-color:#FD5634;
+    color: white
+}
+.mainaboutus2{
+    display: block;
+}
+.aboutsubhead2{
+    padding-left: 30px;
+}
+.tigerimg{
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+}
+.madagascr,.deeranimal,.bearanimal,.elephantanimal,.wolfanimal,.eagleanimal{
+    width: 100%;
+    height: auto;
+}
+.Thirdfourblog,.Lastblog{
+    margin-top: 0;
+}
+.Mainblog1, .Mainblog2, .Mainblog3, .Mainblog4, .Mainblog5, .Mainblog6, .Mainblog7, .Mainblog8,.Mainblog9,.Mainblog10,.Mainblog11,.Mainblog12,.Mainblog13,.Mainblog14,.Mainblog15,.Mainblog16{
+    width: 95%;
+    height: auto;
+    margin-left: 8px;
+}
+.butterflyimg,.elephantimg,.Wildbearimg, .Fishimg, .Parrotimg, .Giraffetimg, .Penquinimg, .Crocodileimg, .Gorillaimg, .Slothimg, .Octopusimg, .whaleimg, .frogimg, .yakimg, .varBirdsimg, .peacockimg{
+   padding-top: 5px;
+    width: 98%;
+}
+.BlogMainHeading{
+margin-bottom: 30px;
+}
+}
