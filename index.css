@@ -944,7 +944,6 @@ margin-bottom: 30px;
         position: unset;
     }
 }
-
 /* Responsive Web Design for medium laptop */
 @media screen and (max-width:1440px) {
     .MaincontactForm{
