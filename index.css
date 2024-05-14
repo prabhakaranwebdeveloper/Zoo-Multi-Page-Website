@@ -474,8 +474,7 @@ padding-bottom: 10px;
 .activepagelink{
     color: #F7BF39 !important;
 }
-
-/* RESPONSIVE WEB DESIGN */
+/* RESPONSIVE WEB DESIGN  for Mobile */
 
 @media screen  and (max-width:500px){
     .mainlisthead,.MainAnimals,.Maincard,.firstfourblog,.SECONDfourblog,.Thirdfourblog,.Lastblog{
@@ -720,4 +719,243 @@ padding: 0;
 .BlogMainHeading{
 margin-bottom: 30px;
 }
+.MainANimalCardsection{
+    display: none;
+}
+}
+
+/* Responsive web design for small devices */
+
+@media screen and  (max-width : 320px){
+    .wolfimagehead{
+        width: 30%;
+        height: auto;
+    }
+   .mainlisthead{
+    display: block;
+   }
+   .mainlisthead{
+    display: flex;
+    gap: 7px;
+}
+.Mainheader{
+    display: flex;
+}
+.Mainhead li a{
+    padding: 0;
+}
+.Mainhead{
+    position: relative;
+    right: 25px;
+}
+.mainlisthead{
+    display: flex;
+    gap: 5px;
+    font-size: 6px;
+}
+.ticket{
+    padding: 4px;
+    font-size: 6px;
+    position: relative;
+    bottom: 2px;
+}
+.testiCommaicon{
+    padding-left: 200px;
+    width: 10%;
+    height: auto;
+}
+.discoverbutton,.VButton,.Contactbutton{
+    font-size: 8px;
+    padding: 5px;
+    border-radius: 3px;
+  }
+}
+
+/* Responsive Web Design for Tab */
+
+@media (min-width:700px) and (max-width:850px) {
+    .Mainhead li a{
+        padding: 0;
+    }
+    .mainlisthead{
+        gap: 20px;
+    }
+    .wolfimagehead{
+        width: 50%;
+    }
+    .ticket{
+        padding: 7px;
+    }
+    .landingpageimage{
+        background-image: url(./zooimages/foresttabimg.jpeg);
+    }
+    .Mainherosectioncontent{
+        top: 250px;
+        text-align: center;
+    }
+    .herocontentpara{
+        width: 95%;
+    }
+    .discoverbutton,.VButton,.Contactbutton{
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 3px;
+      }
+      .mainaboutus,.mainaboutus2{
+        display: block;
+      }
+      .Mainaboutcontent,.MainAnimals,.firstfourblog, .SECONDfourblog, .Thirdfourblog, .Lastblog{
+        display: block;
+      }
+      .tickimg,.tickimg2{
+        width: 5%;
+        margin-top: 25px;
+      }
+      .aboutcontent{
+        margin-top: 0;
+        width: 100%;
+      }
+      .Abouthead,.aboutsubhead,.aboutsubhead2{
+        text-align: center;
+      }
+      .MainANimalCardsection{
+        display: none;
+      }
+      .Mainblog1, .Mainblog2, .Mainblog3, .Mainblog4, .Mainblog5, .Mainblog6, .Mainblog7, .Mainblog8, .Mainblog9, .Mainblog10, .Mainblog11, .Mainblog12, .Mainblog13, .Mainblog14, .Mainblog15, .Mainblog16{
+        width: 100%;
+      }
+      .Mainblog1, .Mainblog2, .Mainblog3, .Mainblog4, .Mainblog5, .Mainblog6, .Mainblog7, .Mainblog8, .Mainblog9, .Mainblog10, .Mainblog11, .Mainblog12, .Mainblog13, .Mainblog14, .Mainblog15, .Mainblog16{
+        margin-bottom: 40px;
+      }
+      .testiCommaicon{
+        padding-left: 200px;
+      }
+      .MainTestimonialContent{
+        display: block;
+      }
+      .MainTestimonialbox1, .MainTestimonialbox2, .MainTestimonialbox3{
+        width: 50%;
+        height: auto;
+      }
+      .MainTestimonialbox1, .MainTestimonialbox2, .MainTestimonialbox3{
+        margin-left: 180px;
+        margin-bottom: 20px;
+      }
+      .Contactimg{
+        position: unset;
+        width: 100%;
+      }
+      .MaincontactForm{
+        display: block;
+        text-align: center;
+      }
+      .Contactheading{
+        padding-left: 70px;
+      }
+      .MainAnimals{
+        text-align: center;
+      }
+      .pandaimg,.tigerimg{
+        margin-left: 50px;
+      }
+      .tickimg2{
+        padding-left: 40px;
+      }
+}
+
+/* Responsive Web Design For  Small laptop */
+
+@media screen and  (max-width : 1024px){
+    .mainlisthead{
+        gap: 0px;
+    }
+    .wolfimagehead{
+        width: 70%;
+    }
+    .ticket,.discoverbutton,.VButton{
+        padding: 9px;
+    }
+    .landingpageimage{
+        background-image: url(./zooimages/foresttabimg.jpeg);
+    }
+    .Mainherosectioncontent{
+        top: 250px;
+        text-align: center;
+    }
+    .herocontentpara{
+        width: 100%;
+    }
+    .mainaboutus, .mainaboutus2{
+        display: block;
+        text-align: center;
+    }
+    .pandaimg{
+        margin-left: 30px;
+    }
+    .Mainaboutcontent,.firstfourblog, .SECONDfourblog, .Thirdfourblog, .Lastblog{
+        display: block;
+    }
+    .tickimg,.tickimg2{
+        width: 4%;
+        margin-right:900px ;
+    }
+    .tickimg2{
+        padding-left: 35px;
+    }
+    .aboutcontent{
+        margin-top: 0;
+    }
+    .wolfanimal,.birdanimal,.penquinanimal,.rhinoanimal,.sqirelanimal,.turtleanimal,.madagascr,.deeranimal,.bearanimal,.elephantanimal,.wolfanimal,.eagleanimal{
+        width: 40%;
+        height: auto;
+    }
+    .MainANimalCardsection{
+        display: none;
+    }
+    .Mainblog1, .Mainblog2, .Mainblog3, .Mainblog4, .Mainblog5, .Mainblog6, .Mainblog7, .Mainblog8, .Mainblog9, .Mainblog10, .Mainblog11, .Mainblog12, .Mainblog13, .Mainblog14, .Mainblog15, .Mainblog16{
+        width: 80%;
+        height: auto;
+        margin-left: 100px;
+    }
+    .butterflyimg, .elephantimg, .Wildbearimg, .Fishimg, .Parrotimg, .Giraffetimg, .Penquinimg, .Crocodileimg, .Gorillaimg, .Slothimg, .Octopusimg, .whaleimg, .frogimg, .yakimg, .varBirdsimg, .peacockimg{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .Mainblog1, .Mainblog2, .Mainblog3, .Mainblog4, .Mainblog5, .Mainblog6, .Mainblog7, .Mainblog8, .Mainblog9, .Mainblog10, .Mainblog11, .Mainblog12, .Mainblog13, .Mainblog14, .Mainblog15, .Mainblog16{
+        margin-bottom: 20px;
+    }
+    .MainTestimonialContent,.MaincontactForm{
+        display: block;
+    }
+    .MainTestimonialbox1, .MainTestimonialbox2, .MainTestimonialbox3{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .Contactheading{
+        margin-left: 370px;
+    }
+    .contactform{
+        margin-left: 200px;
+    }
+    .Contactimg{
+        position: unset;
+    }
+}
+
+/* Responsive Web Design for medium laptop */
+@media screen and (max-width:1440px) {
+    .MaincontactForm{
+        display: block;
+        margin-left: 400px;
+    }
+    .Contactheading{
+        margin-left: 550px;
+    }
+    .Contactimg{
+        top: 1px;
+        right: 200px;
+    }
 }
