@@ -474,6 +474,62 @@ padding-bottom: 10px;
 .activepagelink{
     color: #F7BF39 !important;
 }
+/* Responsive web design for small devices */
+
+@media only screen and  (max-width:320px){
+   
+    .pandaimg{
+        width: 100%;
+        position: relative;
+        right: 30px;
+    }
+   .mainlisthead{
+    display: block;
+}
+.Mainheader{
+    display: flex;
+}
+.Mainhead li a{
+    padding: 0;
+}
+.Mainhead{
+    position: relative;
+    right: 2px;
+}
+.mainlisthead{
+    display: flex;
+    gap: 5px;
+    font-size: 6px;
+}
+.ticket{
+    padding: 4px;
+    font-size: 6px;
+    position: relative;
+    bottom: 2px;
+}
+.testiCommaicon{
+    width: 10%;
+    height: auto;
+}
+.discoverbutton,.VButton,.Contactbutton{
+    font-size: 8px;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .Mainblog1, .Mainblog2, .Mainblog3, .Mainblog4, .Mainblog5, .Mainblog6, .Mainblog7, .Mainblog8, .Mainblog9, .Mainblog10, .Mainblog11, .Mainblog12, .Mainblog13, .Mainblog14, .Mainblog15, .Mainblog16{
+    position: relative;
+    right: 100px;
+    width: 100%;
+  }
+.Contactheading{
+    position: relative;
+    right: 100px;
+}
+.Contactimg{
+    display: none;
+}
+}
+
 /* RESPONSIVE WEB DESIGN  for Mobile */
 
 @media screen  and (max-width:500px){
@@ -498,6 +554,8 @@ padding: 0;
 .pandaimg{
     width: 100%;
     height: 400px;
+    position: relative;
+    right: 30px;
 }
 .wolfimagehead{
     width: 100%;
@@ -560,47 +618,7 @@ padding: 0;
 .aboutheading h2,.AnimalsMainHeading,.bloghead,.CONTACThead{
     font-size: 30px;
 }
-.smileimg{
-    margin-left: 0;
-}
-.smilehead, .bearhead, .Sharkhead, .birdshead{
-    top: 65px;
-    left: 0;
-}
-.smilecontent{
-    right: 0;
-}
-.Bearimg{
-    top: 100px;
-}
-.bearhead{
-    top: 115px;
-    
-}
-.bearcontent{
-    right: 0;
-    top: 130px;
-}
-.sharkimg{
-    top: 160px;
-}
-.Sharkhead{
-    top: 180px;
-}
-.Sharkcontent{
-    right: 0;
-    top: 190px;
-}
-.birdimg{
-    top: 220px;
-}
-.birdshead{
-    top: 230px;
-}
-.birdscontent{
-    right: 0;
-    top: 240px;
-}
+
 .Mainblog1,.Mainblog2,.Mainblog3,.Mainblog4,.Mainblog5,.Mainblog6,.Mainblog7,.Mainblog8,.Mainblog9,.Mainblog10,.Mainblog11,.Mainblog12,.Mainblog13,.Mainblog14,.Mainblog15,.Mainblog16{
     margin-bottom: 20px;
 }
@@ -713,63 +731,35 @@ padding: 0;
     margin-left: 8px;
 }
 .butterflyimg,.elephantimg,.Wildbearimg, .Fishimg, .Parrotimg, .Giraffetimg, .Penquinimg, .Crocodileimg, .Gorillaimg, .Slothimg, .Octopusimg, .whaleimg, .frogimg, .yakimg, .varBirdsimg, .peacockimg{
-   padding-top: 5px;
-    width: 98%;
+    width: 100%;
 }
 .BlogMainHeading{
 margin-bottom: 30px;
 }
-.MainANimalCardsection{
-    display: none;
-}
-}
-
-/* Responsive web design for small devices */
-
-@media screen and  (max-width : 320px){
-    .wolfimagehead{
-        width: 30%;
-        height: auto;
-    }
-   .mainlisthead{
-    display: block;
-   }
-   .mainlisthead{
-    display: flex;
-    gap: 7px;
-}
-.Mainheader{
-    display: flex;
-}
-.Mainhead li a{
-    padding: 0;
-}
-.Mainhead{
+.Mainblog1, .Mainblog2, .Mainblog3, .Mainblog4, .Mainblog5, .Mainblog6, .Mainblog7, .Mainblog8, .Mainblog9, .Mainblog10, .Mainblog11, .Mainblog12, .Mainblog13, .Mainblog14, .Mainblog15, .Mainblog16{
     position: relative;
-    right: 25px;
-}
-.mainlisthead{
-    display: flex;
-    gap: 5px;
-    font-size: 6px;
-}
-.ticket{
-    padding: 4px;
-    font-size: 6px;
-    position: relative;
-    bottom: 2px;
+    right: 100px;
 }
 .testiCommaicon{
-    padding-left: 200px;
+    padding-left: 0;
     width: 10%;
-    height: auto;
 }
-.discoverbutton,.VButton,.Contactbutton{
-    font-size: 8px;
-    padding: 5px;
-    border-radius: 3px;
-  }
+.MaincontactForm{
+    position: relative;
+    right: 600px;
 }
+.CONTACThead{
+    position: relative;
+    right: 500px;
+}
+.MaincontactForm{
+    display: block;
+}
+.Contactimg{
+   display: none;
+}
+}
+
 
 /* Responsive Web Design for Tab */
 
@@ -847,10 +837,15 @@ margin-bottom: 30px;
       }
       .MaincontactForm{
         display: block;
-        text-align: center;
+        position: relative;
+        right: 600px;
+      }
+      .Contactimg{
+        display: none;
       }
       .Contactheading{
-        padding-left: 70px;
+        position: relative;
+        right: 500px;
       }
       .MainAnimals{
         text-align: center;
@@ -943,18 +938,26 @@ margin-bottom: 30px;
     .Contactimg{
         position: unset;
     }
+    .CONTACThead{
+        position: relative;
+        right: 300px;
+    }
+    .MaincontactForm{
+        position: relative;
+        right: 500px;
+    }
+    .Contactimg{
+        display: none;
+    }
 }
+
 /* Responsive Web Design for medium laptop */
-@media screen and (max-width:1440px) {
+@media only screen and (max-width:1440px) {
     .MaincontactForm{
         display: block;
         margin-left: 400px;
     }
     .Contactheading{
         margin-left: 550px;
-    }
-    .Contactimg{
-        top: 1px;
-        right: 200px;
     }
 }
